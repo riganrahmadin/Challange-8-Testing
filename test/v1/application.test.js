@@ -7,7 +7,7 @@ describe("GET /", () => {
     expect(response.status).toBe(200);
     expect(response.body).toEqual({
       status: "OK",
-      message: "BCR API is up and running ",
+      message: "BCR API is Sucess ",
     });
   });
 
